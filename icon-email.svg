@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="39px" viewBox="0 0 60 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-email</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.000375 0.00015 60 0.00015 60 39 0.000375 39"></polygon>
+    </defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-610.000000, -2971.000000)">
+        <g id="Footer" transform="translate(0.000000, 2887.000000)">
+            <g id="icon-email" transform="translate(610.000000, 84.000000)">
+                <g id="Page-1">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M22.078125,22.3359 L1.945125,39.00015 L58.054875,39.00015 L37.921875,22.3359 L33.257625,26.5074 C31.414125,28.15215 28.585875,28.15215 26.742375,26.5074 L22.078125,22.3359 Z M60.000375,2.6484 L40.195125,20.3199 L60.000375,36.7029 L60.000375,2.6484 Z M0.000375,2.6484 L0.000375,36.7029 L19.804875,20.3199 L0.000375,2.6484 Z M1.523625,0.00015 L28.757625,24.2814 C29.395125,24.8499 30.604875,24.8499 31.242375,24.2814 L58.476375,0.00015 L1.523625,0.00015 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
