@@ -77,7 +77,6 @@ li {
 } 
 
 #signUpBoxContainer {
-	max-width: 600px;
 	width: 600px;
 	height:65px;
 	padding-top: 20px;
@@ -149,6 +148,7 @@ li {
 
 	#signUpBoxContainer {
 		width: 100%;
+		height:120px;
 		padding-top: 20px;
 	}
 
