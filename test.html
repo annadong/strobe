@@ -1,80 +1,90 @@
 <html lang="en">
 <head>
-	<title>Strobe</title>
+	<title>Strabe</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 	<link href="style.css" rel="stylesheet">
 
 </head>
 
-<body background="image/hero.svg">
+<body>
 
-	<section class="intro">
-		
-		<img class="image logo" src="image/strabe-logo.svg" alt="logo" style="width:18%"/>
-
-		<h4> Business travel <br/> made easy. </h4>
-
-		<h5> Strabe is your smart digital agent dedicated to <br/> give you the ultimate travel experience. It <br/> plans trips for you, so you can spend time <br/> adding value instead of picking flights. </h5>
-
-		<div class="roundedbox4">
-			Email address
-		</div>
-		<div class="roundedbox5">
-			SIGN UP
-		</div>
-	</section>
-
-
-	<section class ="plane"> 
-		<img class="image center" src="image/plane.svg" alt="plane"> 
-
-		<h1> Say goodbye to travel agents <br/> And hello to the future of business travel </h1> 
-
-		<p style="color:grey"> Strabe was designed to manage dynamic multi-city travel <br/> plans in real-time. Add stops in your schedule without <br/> worrying about messing up your current schedule. </p> 
-
-		<div class="roundedbox">
-			GET STARTED
+	<section id="intro">
+		<div id="introContainer">
+			<div id="logo">
+					<img src="image/strabe-logo.svg" alt="logo"/>
+			</div>
+			<ul id="menu">
+				<li><a class= "navBar" href="#">Blog</a></li>
+				<li><a class="navBar" href="#">Twitter</a></li>
+			</ul>
+			<h1 id="introHeader"> Business travel <br/> made easy. </h1>
+			<h2 id="introPara"> Strabe is your smart digital agent dedicated to give you the ultimate travel experience. It plans trips for you, so you can spend time adding value instead of picking flights. </h2>
+			<div id="signUpBoxContainer">
+				<div id="emailBox">
+					Email address
+				</div>
+				<div id="signUpButton">
+					<a href="#">SIGN UP</a>
+				</div>
+			</div>
 		</div>
 	</section>
 
-	<section class="booking">
-		
-		<br/>
-		<img class="image center" src="image/icon-booking.svg" alt="booking" style="width:5.5%"/> 
-		
-		<h2> Easy Booking </h2>
-		
-		<p style="color:white"> Input potential meeting dates, times and locations in order <br/>to continuously find you the perfect travel plan to catch all <br/> of your meetings. The routes are optimized for costs and <br/> time efficiency to assure that you are always on time. </p>
 
-		<div class="roundedbox2">
-			GET STARTED
-		</div>
+	<section id ="plane"> 
+		<div class="container">
+			<img class="icon" src="image/plane.svg" alt="plane"/> 
 
-	</section>
+			<h1 class="sectionLabel bTxt"> Say goodbye to travel agents <br/> And hello to the future of business travel </h1> 
 
-	<section class="pricing">
-		<br/>
-		<img class="image center" src="image/pricing-icon.svg" alt="pricetag" style="width:4.5%"> 
+			<p style="color:grey"> Strabe was designed to manage dynamic multi-city travel plans in real-time. Add stops in your schedule without worrying about messing up your current schedule. </p> 
 
-		<h1> Simple pricing</h1> 
-
-		<p style="color:grey"> Get started with a 7 days free trial , followed by a $100/ <br/> user monthly fee. No setup or cancellation fees. </p> 
-
-		<div class="roundedbox3">
-			START YOUR FREE TRIAL
+			<div class="sectionBtn yBtn">
+				<a href="#" class="wTxt">GET STARTED</a>
+			</div>
 		</div>
 	</section>
 
-	<section class="contact">
-		<img class="image center" src="image/icon-email.svg" alt="email" style="width:4.5%">
+	<section id="booking">
+		<div class="Container">
+			<img class="icon" src="image/icon-booking.svg" alt="booking"/> 
+			
+			<h1 class="sectionLabel wTxt"> Easy Booking </h1>
+			
+			<p> Input potential meeting dates, times and locations in order to continuously find you the perfect travel plan to catch all of your meetings. The routes are optimized for costs and time efficiency to assure that you are always on time. </p>
 
-		<h2> Get in Touch </h2> 
+			<div class="sectionBtn wBtn">
+				<a href="#" class="bTxt">GET STARTED</a>
+			</div>
+		</div>
+	</section>
 
-		<h3> Talk to us at <strong> hello@strabe.co </strong> and <br/> <strong> @strabeHQ </strong> on Twitter. </h3> 
+	<section id="pricing">
+		<div class = "container">
+			<img class="icon" src="image/pricing-icon.svg" alt="pricetag"> 
 
+			<h1 class="sectionLabel bTxt"> Simple pricing</h1> 
+
+			<p style="color:grey"> Get started with a 7 days free trial, followed by a $100/ user monthly fee. No setup or cancellation fees. </p> 
+
+			<div class="sectionBtn yBtn">
+				<a href="#" class="wTxt">START YOUR FREE TRIAL</a>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact">
+		<div class= "container">
+			<img class="icon" src="image/icon-email.svg" alt="email">
+
+			<h1 class="sectionLabel wTxt"> Get in Touch </h1> 
+
+			<p> Talk to us at <strong> hello@strabe.co </strong> and <br/> <strong> @strabeHQ </strong> on Twitter. </p> 
+		</div>
 	</section>
 
 </body>

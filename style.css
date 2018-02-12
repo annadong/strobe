@@ -1,196 +1,284 @@
 body { 
 	font-family: "Open Sans", sans-serif;
-	background-repeat: no-repeat;
-	background-size: auto;
-	background-size:cover;
-	width:100%;
-	height:100%;
+	margin: 0;
 }
 
 section {
-	width:100%;
+	height:100vh;
+    width: 100vw;
+    display: table;
+    overflow: auto;
+}
+
+/* home page */
+
+#intro {
+	background: url(image/Hero.png);
+}
+
+#introContainer {
 	height:100%;
+	display: table-cell;
+	vertical-align: middle;
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-left: 120px;
 }
 
-.center { 
-	padding-top: 110px; 
-	margin: auto;
-	width: 23%;
+
+#logo {
+	padding-bottom: 40px;
+	display: inline-block;
 }
 
-.intro{
-	padding-bottom: 150px;
+#menu {
+	display: inline;
+	padding-right: 100px;
+	float:right;
+	margin-top: 0;
 }
 
-.logo {
-	padding-left: 150px;
-	padding-top: 100px;
+li {
+	display: inline;
+	padding-left: 30px;
 }
-h4 {
+
+.navBar {
+	color: black;
+}
+
+.navBar:visited {
+	color: black;
+}
+
+.navBar:hover {
+	color: #FFCA00;
+}
+
+#introHeader {
 	font-family: "Open Sans", sans-serif;
-	padding-left: 150px;
-	font-weight: normal;
-	font-size: 65px; 
-	line-height: 60px;
+	font-size: 55px;
+	line-height: 110%;
+	width:400px;
+	text-align: left;
 	color:white;
+	margin-bottom: 30px;
 }
-h5 {
+
+#introPara {
 	font-family: "Open Sans", sans-serif;
-	font-size: 24px;
-	font-weight: 100; 
-	line-height: 35px;
-	padding-left: 150px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-weight: 300;
+	line-height: 150%;
+	width: 470px;
+	text-align: left;
 	color: white;
 } 
 
-.roundedbox4 {
+#signUpBoxContainer {
+	max-width: 600px;
+	width: 600px;
+	height:65px;
+	padding-top: 20px;
+}
+
+#emailBox {
+	display:inline-block;
+	height:100%;
+	float:left;
+	width: 70%;
 	font-family: "Open Sans", sans-serif;
-	font-size: 24px;
+	font-size: 22px;
 	text-indent: 40px;
-	width: 350px;
-	margin-left:150px;
-	padding-top: 18px;
-	padding-bottom: 18px;
 	border-radius: 50px;
 	background-color: #FFFFFF;
 	color: grey;
+	line-height: 60px; 
 }
 
-.roundedbox5 {
-	font-family: "Open Sans", sans-serif;
-	font-size: 24px;
-	text-align: center;
-	width: 150px;
-	padding-top: 18px;
-	padding-bottom: 18px;
-	border-radius: 50px;
-	background-color: #FFCA00;
-	color: white;
-	letter-spacing: 3px;
-}
-
-.roundedbox4, .roundedbox5 {
+#signUpButton {
 	display: inline-block;
-	position: initial;
-	margin:4px;
-
+	margin-left: 20px;
+	float:left;
+	width: 160px;
+	height:100%;
+	font-family: "Open Sans", sans-serif;
+	font-size: 22px;
+	text-align: center;
+	border-radius: 50px;
+	background-color: #FFCA00;
+	color: white;
+	line-height: 60px;
+	letter-spacing: 2px;
 }
 
-div.plane {
-	background-color:white;
-	padding-bottom: 150px;
+#signUpButton:hover {
+	background-color: #FFCF20;
 }
+
+@media only screen and (max-width: 600px) {
 	
-img.center {
-	margin-left: auto;
-	margin-right: auto;
-}
-
-
-h1 {
-	text-align: center;
-	font-family: "Open Sans", sans-serif;
-	padding-top: 20px; 
-	padding-bottom: 10px;
-	font-style: :lighter;
-	font-weight: normal;
-	font-size: 47px; 
-}
-p {
-		text-align: center;
-		font-family: "Open Sans", sans-serif;
-		font-size: 25px;
-		font-weight: lighter; 
-		line-height: 35px;
-		padding-bottom: 50px;
-		color:rgb(112,112,112);
-} 
-
-.roundedbox {
-	text-align: center;
-	font-family: "Open Sans", sans-serif;
-	font-size: 22px;
-	width: 280px;
-	margin-right: auto;
-	margin-left:auto;
-	padding-top: 18px;
-	padding-bottom: 18px;
-	border-radius: 50px;
-	background-color: #FFCA00;
-	color: white;
-	letter-spacing: 3px;
-}
-
-.booking {
-	background-color: #FFCA00;
-	padding-bottom: 150px;
-}
-
-h2 {
-	text-align: center;
-	font-family: "Open Sans", sans-serif;
-	font-style: :lighter;
-	font-weight: normal;
-	font-size: 47px; 
-	color:#FFFFFF;
-}
-
-p {
-	text-align: center;
-	font-family: "Open Sans", sans-serif;
-	font-size: 25px;
-	font-weight: lighter; 
-	line-height: 35px;
-	padding-bottom: 90px;
-	color: white;
-} 
-
-.roundedbox2 {
-	text-align: center;
-	font-family: "Open Sans", sans-serif;
-	font-size: 22px;
-	width: 280px;
-	margin-right: auto;
-	margin-left:auto;
-	padding-top: 18px;
-	padding-bottom: 18px;
-	border-radius: 50px;
-	background-color: #FFFFFF;
-	color: black;
-	letter-spacing: 3px;
-}
-
-.pricing {
-	background-color: #FFFFFF;
-	padding-bottom: 180px;
+	#introContainer {
+		padding:30px;
+		text-align: center;;
 	}
 
-.roundedbox3 {
+	#logo {
+		padding-bottom: 10px;
+		display: block;
+	}
+
+	#menu {
+		margin-top: 20px;
+		float: none;
+		display: block;
+	}
+
+	#introHeader {
+		width: 100%;
+		font-size: 30px;
+		text-align: center;
+	}
+
+	#introPara {
+		width: 100%;
+		font-size: 15px;
+		text-align: center;
+	}
+
+	#signUpBoxContainer {
+		width: 100%;
+		padding-top: 20px;
+	}
+
+	#emailBox {
+		width: 100%;
+		height: 55px;
+		font-size: 18px;
+		text-indent: 0px;
+		text-align: center;
+
+	}
+
+	#signUpButton {
+		float:none;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		height: 55px;
+		font-size: 18px;
+		background-color: #FFCA00;
+	}
+}
+
+/*other pages*/
+
+.container {
+	height:100%;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+
+.icon {
+	display: block;
+	margin:auto;
+}
+
+.sectionLabel {
 	text-align: center;
 	font-family: "Open Sans", sans-serif;
-	font-size: 22px;
-	width: 390px;
-	margin-right: auto;
-	margin-left:auto;
-	padding-top: 18px;
-	padding-bottom: 18px;
-	border-radius: 50px;
-	background-color: #FFCA00;
-	color: white;
-	letter-spacing: 3px;
-	}		
+	font-style: :lighter;
+	font-weight: normal;
+	font-size: calc(20px + (50 - 20) * ((100vw - 300px) / (1600 - 300)));
+	margin-top: 
+}
 
-.contact {
+p {
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: calc(12px + (25 - 12) * ((100vw - 300px) / (1600 - 300)));
+	line-height: 35px;
+	width: 60%;
+	margin:auto;
+	color: white;
+} 
+
+.sectionBtn {
+	text-align: center;
+	text-decoration: none;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	width: 280px;
+	height:70px;
+	margin: auto;
+	margin-top:40px;
+	border-radius: 50px;
+	color: black;
+	letter-spacing: 3px;
+	line-height: 70px;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+.wTxt {
+	color: white;
+}
+
+.bTxt{
+	color: black;
+}
+
+.bTxt:visited {
+	color: black;
+}
+.yBtn {
 	background-color: #FFCA00;
 }
 
-h3 {
-	text-align: center;
-	font-family: "Open Sans", sans-serif;
-	font-size: 25px;
-	font-weight: lighter; 
-	line-height: 35px;
-	padding-bottom: 80px;
-	color: white;
+.wBtn {
+	background-color: white;
+}
 
+.yBtn:hover {
+	background-color: #FFCF20;
+}
+
+.wBtn:hover {
+	background-color: #FFFFD0;
+}
+
+#plane {
+	background-color:white;
+}
+
+#pricing {
+	background-color: #FFFFFF;
+}
+
+#booking {
+	background-color: #FFCA00;
+}
+
+#contact {
+	background-color: #FFCA00;
+	height: 50vh;
+}
+
+@media only screen and (max-width: 600px) {
+	p {
+		width:90%;
+	}
 }
